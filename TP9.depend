@@ -1,23 +1,24 @@
 # depslib dependency file v1.0
-1729768123 source:c:\users\student\documents\language\c++\ece\tp9\livre.cpp
-	"livre.h"
+1729774536 source:c:\users\student\documents\language\c++\ece\tp9\livre.cpp
 	<iostream>
+	"livre.h"
 	<string>
 
 1729765139 c:\users\student\documents\language\c++\ece\tp9\livre.h
 	<string>
 
-1729770172 source:c:\users\student\documents\language\c++\ece\tp9\main.cpp
+1729781781 source:c:\users\student\documents\language\c++\ece\tp9\main.cpp
 	<iostream>
 	"livre.h"
 	"roman.h"
 	"article.h"
+	"magazine.h"
 
-1729769902 c:\users\student\documents\language\c++\ece\tp9\roman.h
+1729782342 c:\users\student\documents\language\c++\ece\tp9\roman.h
 	<string>
 	"livre.h"
 
-1729770148 source:c:\users\student\documents\language\c++\ece\tp9\roman.cpp
+1729782286 source:c:\users\student\documents\language\c++\ece\tp9\roman.cpp
 	<iostream>
 	"livre.h"
 	"roman.h"
@@ -27,9 +28,19 @@
 	<string>
 	"livre.h"
 
-1729770152 source:c:\users\student\documents\language\c++\ece\tp9\article.cpp
+1729772778 source:c:\users\student\documents\language\c++\ece\tp9\article.cpp
 	<iostream>
 	"livre.h"
 	"article.h"
 	<string>
+
+1729774869 source:c:\users\student\documents\language\c++\ece\tp9\magazine.cpp
+	<iostream>
+	"livre.h"
+	"magazine.h"
+	<string>
+
+1729770907 c:\users\student\documents\language\c++\ece\tp9\magazine.h
+	<string>
+	"livre.h"
 

@@ -1,12 +1,12 @@
-#include "livre.h"
 #include <iostream>
+#include "livre.h"
 #include <string>
 
 // Constructeur avec paramètres
 livre::livre(std::string titre, std::string auteur, int anneePublication) : titre(titre), auteur(auteur), anneePublication(anneePublication) {}
 
 void livre::afficherInfo() const {
-    std::cout << "Information \n titre : "<< titre << "\n Auteur : " << auteur << "\n Annee de publication: "<< anneePublication << std::endl;
+    std::cout << "\nInformation \n titre : "<< titre << "\n Auteur : " << auteur << "\n Annee de publication: "<< anneePublication << std::endl;
 }
 
 std::string livre::getType() const {

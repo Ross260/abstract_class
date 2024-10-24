@@ -1,7 +1,6 @@
 #include <iostream>
 #include "livre.h"
 #include "article.h"
-
 #include <string>
 
 //article builder with parameters
