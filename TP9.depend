@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1729768123 source:c:\users\student\documents\language\c++\ece\tp9\livre.cpp
+	"livre.h"
+	<iostream>
+	<string>
+
+1729765139 c:\users\student\documents\language\c++\ece\tp9\livre.h
+	<string>
+
+1729770172 source:c:\users\student\documents\language\c++\ece\tp9\main.cpp
+	<iostream>
+	"livre.h"
+	"roman.h"
+	"article.h"
+
+1729769902 c:\users\student\documents\language\c++\ece\tp9\roman.h
+	<string>
+	"livre.h"
+
+1729770148 source:c:\users\student\documents\language\c++\ece\tp9\roman.cpp
+	<iostream>
+	"livre.h"
+	"roman.h"
+	<string>
+
+1729769881 c:\users\student\documents\language\c++\ece\tp9\article.h
+	<string>
+	"livre.h"
+
+1729770152 source:c:\users\student\documents\language\c++\ece\tp9\article.cpp
+	<iostream>
+	"livre.h"
+	"article.h"
+	<string>
+
