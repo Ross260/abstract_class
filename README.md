@@ -1,1 +1,3 @@
-# abstract_class
+# Abstract_class
+
+Notion d'heritage
