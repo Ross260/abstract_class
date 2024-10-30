@@ -1,5 +1,5 @@
 
-# Calsse abstraite : Modélisation de Livres en C++
+# Classe abstraite : Modélisation de Livres en C++
 
 Ce projet consiste à créer une hiérarchie de classes en C++ pour modéliser différents types de livres : Romans, Articles et Magazines. La classe de base sera abstraite et définira les attributs et méthodes communs, tandis que les classes dérivées auront leurs propres spécificités.
 
@@ -23,7 +23,7 @@ Créer une hiérarchie de classes en C++ :
      - `anneePublication` (int)
    - **Méthodes** :
      - Constructeur avec paramètres pour le titre, l'auteur et l'année de publication.
-     - Méthode virtuelle pure `void afficher() = 0;`
+     - Méthode virtuelle pure `void afficherInfo() = 0;`
      - Méthode virtuelle pure `std::string getType() = 0;`
 
 2. **Classe dérivée Roman** :
@@ -31,7 +31,7 @@ Créer une hiérarchie de classes en C++ :
      - `nbPages` (int)
    - **Méthodes** :
      - Constructeur avec paramètres.
-     - Redéfinition de `afficher()`.
+     - Redéfinition de `afficherInfo()`.
      - Redéfinition de `getType()`.
 
 3. **Classe dérivée Article** :
@@ -40,7 +40,7 @@ Créer une hiérarchie de classes en C++ :
      - `volume` (int)
    - **Méthodes** :
      - Constructeur avec paramètres.
-     - Redéfinition de `afficher()`.
+     - Redéfinition de `afficherInfo()`.
      - Redéfinition de `getType()`.
 
 4. **Classe dérivée Magazine** :
@@ -48,5 +48,5 @@ Créer une hiérarchie de classes en C++ :
      - `numeroEdition` (int)
    - **Méthodes** :
      - Constructeur avec paramètres.
-     - Redéfinition de `afficher()`.
+     - Redéfinition de `afficherInfo()`.
      - Redéfinition de `getType()`.
